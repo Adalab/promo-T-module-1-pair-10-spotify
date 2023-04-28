@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+}
+.menu-icon {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.principal {
+  background-color: #529cf1;
+  color: white;
+  height: 600px;
+  /* background-image: url(../imagenes/premium_dancer.png);
+  background-position: right;
+  background-repeat: no-repeat; */
+}
+.principal article {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.titulo {
+  font-size: 50px;
+}
+.subtitulo {
+  font-size: 30px;
+  font-weight: 500;
+}
+.texto-pequeño {
+  font-size: 8px;
+}
