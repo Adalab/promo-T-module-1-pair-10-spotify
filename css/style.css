@@ -11,6 +11,8 @@
   height: 40px;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 .logo {
   margin-left: var(--margin-left-global);
@@ -26,10 +28,12 @@
 .hero {
   background-color: #529cf1;
   color: white;
-  height: 50vh;
+  height: 85vh;
+  padding-top: 40px;
   /* background-image: url(../imagenes/premium_dancer.png);
   background-position: right;
   background-repeat: no-repeat; */
+
 }
 .hero article {
   margin-left: var(--margin-left-global);
@@ -59,27 +63,27 @@ margin-bottom: 80px;
 
 }
 .container-box {
-  background-color: blueviolet;
   display: flex;
   flex-wrap: wrap;
   margin-left: var(--margin-left-global);
   margin-right: var(--margin-right-global);
   gap: 20px;
+  justify-content: space-around;
 }
 .box {
-  background-color: cadetblue;
-  border:1px solid black;
   display: flex;
   flex-direction: row;
   width: 360px;
+
 }
 .box img {
   width: 80px;
   height: 80px;
-  background-color: blue;
+  margin-right: 10px;
 }
 .box-texto {
-  margin-left: 15px;
+  /* padding-right: 15px; */
+  min-width: 240px;
 }
 .box-texto h3 {
   padding-bottom: 10px;
