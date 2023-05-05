@@ -4,6 +4,7 @@
 :root {
   --margin-left-global: 10px;
   --margin-right-global: 10px;
+  font-size: 62.5%;
 }
 .header {
   background-color: black;
@@ -24,31 +25,50 @@
   width: 30px;
   height: 30px;
 }
+.menu {
+  display:none;
+}
 
 .hero {
   background-color: #529cf1;
   color: white;
-  height: 85vh;
+  height: 50vh;
   padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* background-image: url(../imagenes/premium_dancer.png);
   background-position: right;
   background-repeat: no-repeat; */
 
 }
-.hero article {
+.hero-article {
   margin-left: var(--margin-left-global);
   margin-right: var(--margin-right-global);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo {
   font-size: 50px;
 }
 .subtitulo {
-  font-size: 30px;
+  padding-top: 10px;
+  font-size: 25px;
   font-weight: 500;
 }
+.button {
+  margin: 20px 0;
+  background-color: #26b758;
+  color:white;
+  padding: 15px 170px;
+  border-radius: 25px;
+  
+}
 .texto-pequeño {
-  font-size: 8px;
+  font-size: 10px;
 }
 .sec2 {
 margin-bottom: 80px;
