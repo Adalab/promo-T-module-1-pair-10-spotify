@@ -17,20 +17,8 @@
   <body>
     <include src="./partials/header.html"></include>
     <main>
-      <section class="hero">
-        <article class="hero-article">
-          <h1 class="titulo">Prueba Premium gratis 3 meses</h1>
-          <p class="subtitulo">
-            Escucha millones de canciones sin anuncios, a la carta y sin
-            conexión
-          </p>
-          <a class="button" href="">ver planes</a>
-          <p class="texto-pequeño">
-            Rigen términos y condiciones. Los tres meses gratis no están
-            disponibles para usuarios que ya hayan probado Premium.
-          </p>
-        </article>
-      </section>
+      <include src="./partials/hero.html"></include>
+      
       <section class="sec2">
         <h2 class="titulo-sec2">¿Por qué pasarte a Premium?</h2>
         <div class="container-box">
@@ -40,22 +28,8 @@
           <include src="./partials/benefits.html" title="Salta todas las canciones que quieras." description="Simplemente dale a siguiente." imagen="./assets/images/benefit-4.png" imgdes="benefit-4"></include>
         </div>
       </section>
+      <include src="./partials/footer.html"></include>
     </main>
-    <footer>
-      <nav>
-        <ul class="menu-footer">
-          <li><a href="#">Legal</a></li>
-          <li><a href="#">Cookies</a></li>
-          <li><a href="#">Información sobre los anuncios</a></li>
-        </ul>
-      </nav>
-      <div class="menu-footer2">
-        <p>España</p>
-        <img src="./imagenes/es.svg" alt="bandera-es" />
-        <p>&copy 2019 Spotify AB</p>
-      </div>
-      
-      <!-- buscar copyright simbolo -->
-    </footer>
+    
   </body>
 </html>
