@@ -1,0 +1,158 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --margin-left-global: 10px;
+  --margin-right-global: 10px;
+  font-size: 62.5%;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin-left: var(--margin-left-global);
+  width: 80px;
+  height: 30px;
+}
+
+.menu-icon {
+  margin-right: var(--margin-right-global);
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+.hero {
+  background-color: #529cf1;
+  color: white;
+  height: 50vh;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(../imagenes/premium_dancer.png);
+  background-position: right;
+  background-repeat: no-repeat; */
+
+}
+
+.hero-article {
+  margin-left: var(--margin-left-global);
+  margin-right: var(--margin-right-global);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 50px;
+}
+
+.subtitulo {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.button {
+  margin: 20px 0;
+  background-color: #26b758;
+  color: white;
+  padding: 15px 170px;
+  border-radius: 25px;
+
+}
+
+.texto-pequeño {
+  font-size: 10px;
+}
+
+.sec2 {
+  margin-bottom: 80px;
+}
+
+.titulo-sec2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.container-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: var(--margin-left-global);
+  margin-right: var(--margin-right-global);
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+
+}
+
+.box img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.box-texto {
+  /* padding-right: 15px; */
+  min-width: 240px;
+}
+
+.box-texto h3 {
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+
+}
+
+.menu-footer {
+  margin-left: var(--margin-left-global);
+  list-style-type: none;
+}
+
+.menu-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-footer2 img {
+  width: 15px;
+  height: 15px;
+}
